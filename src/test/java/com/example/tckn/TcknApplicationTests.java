@@ -15,7 +15,6 @@ class TcknApplicationTests {
     @Test
     void is_tckn_valid(){
         boolean isValid = tcknValidationService.isTcknValid("13811111111");
-        assertNotNull(isValid);
         assertFalse(isValid);
     }
 
